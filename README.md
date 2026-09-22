@@ -69,11 +69,6 @@ A full-stack recipe platform with authentication, recipe management, REST APIs, 
 
 **Technologies:** React.js, Node.js, Express.js, MongoDB
 
-### Campus2Career
-An AI-powered resume analysis platform designed to analyze resumes against job descriptions and provide relevant insights for career preparation.
-
-**Technologies:** React.js, Node.js, Express.js, Generative AI
-
 ## 💼 Experience
 
 ### AMDOX Technologies

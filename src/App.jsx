@@ -7,7 +7,7 @@ const projects = [
     tech: "FastAPI • Streamlit • FAISS • Sentence Transformers • LLMs",
     description:
       "AI-powered document assistant that enables PDF upload, context-aware Q&A, summarization, and quiz generation using a RAG pipeline.",
-    github: "https://github.com/Achu-24/AI-Assistant.git",
+    github: "https://github.com/Achu-24/AI-Assistant",
   },
   {
     number: "02",
@@ -15,11 +15,10 @@ const projects = [
     tech: "React.js • Node.js • Express.js • MongoDB",
     description:
       "Full-stack recipe platform with responsive interfaces, authentication, REST APIs, MongoDB data management, and production deployment.",
-    github: "https://github.com/kalviumcommunity/S74_HamshaVerthini_Capstone_DishQuest.git",
+    github:
+      "https://github.com/kalviumcommunity/S74_HamshaVerthini_Capstone_DishQuest",
   },
-
 ];
-
 const skills = [
   "Python",
   "Java",
@@ -94,6 +93,14 @@ function App() {
                 className="button primary"
               >
                 GitHub ↗
+              </a>
+
+              <a
+                href="https://leetcode.com/u/Hamshaverthini/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LeetCode ↗
               </a>
 
               <a
@@ -341,6 +348,14 @@ function App() {
               rel="noreferrer"
             >
               GitHub ↗
+            </a>
+            
+            <a
+            href="https://leetcode.com/u/Hamshaverthini/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LeetCode ↗
             </a>
 
             <a

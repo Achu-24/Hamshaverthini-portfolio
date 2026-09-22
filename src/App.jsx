@@ -99,6 +99,7 @@ function App() {
                 href="https://leetcode.com/u/Hamshaverthini/"
                 target="_blank"
                 rel="noreferrer"
+                className="button secondary"
               >
                 LeetCode ↗
               </a>

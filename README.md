@@ -4,7 +4,7 @@ A personal portfolio website showcasing my projects, technical skills, experienc
 
 ## 🌐 Live Portfolio
 
-Coming soon — deployed using Netlify.
+https://hamshaverthini-portfolio.netlify.app/
 
 ## 👩‍💻 About Me
 

@@ -19,6 +19,7 @@ const projects = [
       "https://github.com/kalviumcommunity/S74_HamshaVerthini_Capstone_DishQuest",
   },
 ];
+
 const skills = [
   "Python",
   "Java",
@@ -116,6 +117,15 @@ function App() {
               <a href="#contact" className="button secondary">
                 Contact
               </a>
+
+              <a
+                href="/Hamshaverthini.docx.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="button secondary"
+              >
+                Resume ↗
+              </a>
             </div>
           </div>
 
@@ -189,7 +199,9 @@ function App() {
               {projects.map((project) => (
                 <article className="project-card" key={project.title}>
                   <div className="project-top">
-                    <span className="project-number">{project.number}</span>
+                    <span className="project-number">
+                      {project.number}
+                    </span>
 
                     <a
                       href={project.github}
@@ -251,6 +263,15 @@ function App() {
                 <span>MongoDB</span>
                 <span>REST APIs</span>
               </div>
+
+              <a
+                href="/certificates/AMDOX-internship-certificate.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="certificate-link"
+              >
+                View Internship Certificate ↗
+              </a>
             </div>
           </div>
         </section>
@@ -285,31 +306,94 @@ function App() {
         <section className="section">
           <div className="section-heading">
             <p className="section-number">06</p>
-            <p className="section-label">CERTIFICATIONS & ACHIEVEMENTS</p>
+            <p className="section-label">
+              CERTIFICATIONS & ACHIEVEMENTS
+            </p>
           </div>
 
           <div className="achievement-list">
+            {/* Deloitte Data Analytics */}
             <div className="achievement">
               <span>01</span>
+
               <p>Deloitte Data Analytics Certification</p>
-              <small>2026</small>
+
+              <small>
+                2026{" "}
+                <a
+                  href="/certificates/DataAnalytics-Deloitte.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate ↗
+                </a>
+              </small>
             </div>
 
+            {/* Deloitte Cyber */}
             <div className="achievement">
               <span>02</span>
+
               <p>Deloitte Cyber Certification</p>
-              <small>2026</small>
+
+              <small>
+                2026{" "}
+                <a
+                  href="/certificates/Cyber-Deloitte.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate ↗
+                </a>
+              </small>
             </div>
 
+            {/* UI/UX */}
             <div className="achievement">
               <span>03</span>
-              <p>AgeOfAGI Hackathon — Campus2Career</p>
-              <small>2026</small>
+
+              <p>30 Days MasterClass in UI/UX Design</p>
+
+              <small>
+                NoviTech R&amp;D Private Limited · 2025{" "}
+                <a
+                  href="/certificates/HAMSHAVERTHINI.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate ↗
+                </a>
+              </small>
             </div>
 
+            {/* AgeOfAGI */}
             <div className="achievement">
               <span>04</span>
+
+              <p>AgeOfAGI Hackathon — Campus2Career</p>
+
+              <small>
+                2026{" "}
+                <a
+                  href="/certificates/Hamshaverthini-Age-of-Agi-Hackathon.jpg"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate ↗
+                </a>
+              </small>
+            </div>
+
+            {/* Squad Fusion */}
+            <div className="achievement">
+              <span>05</span>
+
               <p>Squad Fusion Hackathon</p>
+
               <small>2024</small>
             </div>
           </div>
@@ -326,21 +410,21 @@ function App() {
             collaborations, and interesting projects.
           </p>
 
-        <div className="contact-details">
-        <a
-        href="mailto:hamshaverthinik@gmail.com"
-        className="email-link"
-        >
-          hamshaverthinik@gmail.com ↗ 
-        </a>
+          <div className="contact-details">
+            <a
+              href="mailto:hamshaverthinik@gmail.com"
+              className="email-link"
+            >
+              hamshaverthinik@gmail.com ↗
+            </a>
 
-        <a
-        href="tel:+918610272436"
-        className="phone-link"
-        >
-           +91 8610272436 ↗
-        </a>
-        </div>
+            <a
+              href="tel:+918610272436"
+              className="phone-link"
+            >
+              +91 8610272436 ↗
+            </a>
+          </div>
 
           <div className="social-links">
             <a
@@ -350,13 +434,13 @@ function App() {
             >
               GitHub ↗
             </a>
-            
+
             <a
-            href="https://leetcode.com/u/Hamshaverthini/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LeetCode ↗
+              href="https://leetcode.com/u/Hamshaverthini/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LeetCode ↗
             </a>
 
             <a
@@ -365,6 +449,14 @@ function App() {
               rel="noreferrer"
             >
               LinkedIn ↗
+            </a>
+
+            <a
+              href="/Hamshaverthini.docx.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume ↗
             </a>
           </div>
         </section>

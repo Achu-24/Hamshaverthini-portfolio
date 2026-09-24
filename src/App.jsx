@@ -8,6 +8,7 @@ const projects = [
     description:
       "AI-powered document assistant that enables PDF upload, context-aware Q&A, summarization, and quiz generation using a RAG pipeline.",
     github: "https://github.com/Achu-24/AI-Assistant",
+    demo: "https://ai-assistantgit-eutekm8p38rqgbdrocnyry.streamlit.app/",
   },
   {
     number: "02",
@@ -17,6 +18,7 @@ const projects = [
       "Full-stack recipe platform with responsive interfaces, authentication, REST APIs, MongoDB data management, and production deployment.",
     github:
       "https://github.com/kalviumcommunity/S74_HamshaVerthini_Capstone_DishQuest",
+    demo: "https://dishquest-capstone.netlify.app/",
   },
 ];
 
@@ -53,7 +55,6 @@ const skills = [
   "Bruno",
   "Render",
   "Netlify",
-
 ];
 
 function App() {
@@ -84,7 +85,7 @@ function App() {
               Hamshaverthini <span>K</span>
             </h1>
 
-            <h2>Full Stack Developer · AI / Backend</h2>
+            <h2> AI Full Stack Developer </h2>
 
             <p className="hero-description">
               Full-stack developer building responsive, AI-powered applications
@@ -210,13 +211,23 @@ function App() {
                       {project.number}
                     </span>
 
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      GitHub ↗
-                    </a>
+                    <div className="project-links">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        GitHub ↗
+                      </a>
+
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live Demo ↗
+                      </a>
+                    </div>
                   </div>
 
                   <h3>{project.title}</h3>

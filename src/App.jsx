@@ -24,6 +24,8 @@ const skills = [
   "Python",
   "Java",
   "C++",
+  "Pandas",
+  "NumPy",
   "JavaScript",
   "TypeScript",
   "React.js",
@@ -38,6 +40,7 @@ const skills = [
   "MongoDB",
   "MySQL",
   "PostgreSQL",
+  "Supabase",
   "Generative AI",
   "LLMs",
   "RAG",
@@ -47,6 +50,10 @@ const skills = [
   "GitHub",
   "Docker",
   "Postman",
+  "Bruno",
+  "Render",
+  "Netlify",
+
 ];
 
 function App() {
